@@ -1,10 +1,25 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-start",
+  templateUrl: "./app.component.html",
+  styles: []
 })
 export class AppComponent {
-  title = 'angular9practice';
+  title = "Hello ..!";
+
+  names = [
+    "Alex",
+    "Ali",
+    "Sai",
+    "Alex",
+    "Ali",
+    "Sai",
+    "Alex",
+    "Ali",
+    "Sai",
+    "Alex",
+    "Ali",
+    "Sai"
+  ];
 }
