@@ -9,6 +9,9 @@ import { Ban2Component } from './layout/ban2/ban2.component';
 import { ContactComponent } from './layout/contact/contact.component';
 import { Ban3Component } from './layout/ban3/ban3.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { MobPartComponent } from './products/mob-part/mob-part.component';
+import { BooksComponent } from './products/books/books.component';
+import { BikesComponent } from './products/bikes/bikes.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FooterComponent } from './layout/footer/footer.component';
     Ban2Component,
     ContactComponent,
     Ban3Component,
-    FooterComponent
+    FooterComponent,
+    MobPartComponent,
+    BooksComponent,
+    BikesComponent
   ],
   imports: [
     BrowserModule
