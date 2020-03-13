@@ -17,7 +17,8 @@ export class MobPartComponent implements OnInit {
       description: "5.5 Screen for Moto g",
       inStock: 5,
       prodNameColor: "red",
-      isOnline: false
+      isOnline: false,
+      country: "Australia"
     },
     {
       id: 1002,
@@ -25,7 +26,8 @@ export class MobPartComponent implements OnInit {
       description: "5 Screen for Samsung",
       inStock: 8,
       prodNameColor: "green",
-      isOnline: false
+      isOnline: false,
+      country: "Germany"
     },
     {
       id: 1003,
@@ -33,7 +35,8 @@ export class MobPartComponent implements OnInit {
       description: "Key panel for Nokia",
       inStock: 0,
       prodNameColor: "blue",
-      isOnline: true
+      isOnline: true,
+      country: "India"
     }
   ];
 }
